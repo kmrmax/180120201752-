@@ -1,0 +1,272 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+
+*{
+    outline: none !important
+    }
+
+.wrapper{
+    display: grid;
+    width: 100%;
+}
+
+.heading{
+margin-left: 20px;
+}
+
+.foto{
+    background-image: url(image/foto2.png);
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    float: left;
+}
+
+h3{
+    margin: 5px 0 5px 130px;
+    font: bold 16px 'Arial', sans-serif;
+}
+
+.position{
+    margin: 5px 0 5px 130px;
+    font: 14px 'Arial', sans-serif;
+}
+
+
+.description{
+    background-color: #fffbc8;
+    border: solid 1px #cecabf;
+    border-radius: 0.5em; 
+    padding-left: 50px;
+    margin-left: 80px;
+    width: 50%;
+}
+
+.description p{
+    margin: 10px 0 10px 0;
+    
+}
+
+
+
+
+.serv{
+    justify-self: right;
+    width: 42%;
+    margin-left: 130px;
+}
+
+hr{
+    size: 1px;
+    color: #cecabf;
+    width: 50%;
+    margin-left: 130px;
+}
+
+.services{ 
+    display: grid;
+    border-left: solid 1px #7eb4ca; 
+    width: 50%;
+    margin-left: 130px;
+    grid-template-columns: 3fr 1fr;
+}
+
+
+.reservation{
+    background-color: #b1e19b;
+    width: 70%;
+    padding: 10px 0 10px 0;
+    border-radius: 0 5px 5px 0;
+    margin-bottom: 3px;
+  
+}
+.tour{
+    background-color: #ace2f8;
+    width: 50%;
+    padding: 10px 0 10px 0;
+    border-radius: 0 5px 5px 0;
+    margin-bottom: 3px;
+    
+}
+
+.hotel{
+    background-color: #ace2f8;
+    width: 10%;
+    padding: 10px 0 10px 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.numb{
+    justify-self: center;
+    font: bold 16px 'Arial', sans-serif;
+}
+
+
+
+.total{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-left: 130px; 
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.all{
+    justify-self: start;
+    font: bold 16px 'Arial', sans-serif;
+}
+.all_numb{
+    justify-self: center;
+    font: bold 16px 'Arial', sans-serif;
+}
+
+
+.last_review{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.last{
+    font: bold 16px 'Arial', sans-serif;
+}
+
+a{
+    font: 14px 'Arial', sans-serif;
+    justify-self: start;
+}
+
+.likecom{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    font: 15px 'Arial', sans-serif;
+    
+}
+
+.like{
+    justify-self:center;
+}
+
+.number_comment{
+    justify-self:start;
+}
+
+
+
+.your_comments{
+    margin-left: 20px;
+}
+
+.your_comments p{
+    margin-bottom: 0;
+    font: 14px 'Arial', sans-serif;
+}
+
+.your_comments span{
+    font: bold 16px 'Arial', sans-serif;
+}
+
+
+
+
+  
+    .comment {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    }
+  
+  
+  
+    .dialog {
+    position: relative;
+    background: #cfeaf6;
+    color: #222;
+    border: solid 1px #cecabf;
+    
+    }
+
+     .dialog p{
+         padding-left: 20px;
+         padding-right: 20px; 
+         padding-bottom: 10px;
+         font: 16px 'Arial', sans-serif;
+     }
+  
+    .dialog::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 15px solid #cfeaf6;
+    left: 25px;
+    top: -8px;
+    }
+   
+    
+
+    #footer{
+        background-color: #f2f2f2;
+        text-align: center;
+        padding-top: 30px;
+
+    }
+
+    #comment-body{
+        height: 65px;
+        resize: none;
+        border-radius: 3px;
+        overflow: hidden;
+        width: 80%;
+        padding: 0 20px;
+    }
+
+    #comment-add{
+        background-color: #fdd639;
+        padding: 0 60px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        border-radius: 50px;
+        border: none; 
+    }
+
+
+    #comment-add p{
+        font: bold 16px 'PT Sans', sans-serif;
+    }
+
+
+    .text-left{
+        margin-left: 20px;
+        font: 14px 'Arial', sans-serif;
+    }
+        
+    .alert{
+        
+         position: relative;
+         background: #cfeaf6;
+         color: #222;
+         border: solid 1px #cecabf;
+         padding: 10px 20px 10px 20px;
+         margin-right: 20px;
+         margin-left: 20px;
+         font: 16px 'Arial', sans-serif;
+    }
+    
+    .alert::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 1px solid transparent;
+        border-left: 15px solid #cfeaf6;
+        left: 25px;
+        top: -8px;
+    }
+
+    
